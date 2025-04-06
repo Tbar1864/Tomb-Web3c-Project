@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <class="quiz_body">
+        <!-- NAVBAR -->
+        <nav>
+            <div class="left">
+                <a href="/">Tom B.</a>
+                <a href="#skills">Skills</a>
+                <a href="/research.html">Research</a>
+                <a href="/references.html">References</a>
+            </div>
+    
+            <div class="right">
+                <a href="http:/github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+    
+                <a href="http:/linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                    <span>linkedin</span>
+                </a>
+    
+                <a href="mailto:tomb@example.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+    
+        </nav>           
+        
+
+    <div class="quiz-container">
+        <h1>Quiz: HTML and the Web</h1>
+        
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. Who is credited with inventing the World Wide Web (WWW), and in what year did this occur?</p> <br>
+                <label><input type="radio" name="q1" value="A"> A) Vint Cerf, 1983</label><br>
+                <label><input type="radio" name="q1" value="B"> B) Tim Berners-Lee, 1989</label><br>
+                <label><input type="radio" name="q1" value="C"> C) Robert Cailliau, 1990</label><br>
+                <label><input type="radio" name="q1" value="D"> D) Bob Kahn, 1990</label><br>
+            </div>
+            
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Which of the following technologies was instrumental in allowing different types of computers worldwide to communicate with each other, 
+                      forming the foundation of the internet?</p> <br>
+                <label><input type="radio" name="q2" value="A"> A) HTML</label><br>
+                <label><input type="radio" name="q2" value="B"> B) HTTP</label><br>
+                <label><input type="radio" name="q2" value="C"> C) TCP/IP</label><br>
+                <label><input type="radio" name="q2" value="D"> D) URL</label><br>
+            </div>
+
+             <!-- Question 3 -->
+            <div class="question">
+                <p>3. What was the primary role of search engines like Yahoo, AltaVista, and Google in the growth of the World Wide Web?</p> <br>
+                <label><input type="radio" name="q3" value="A"> A) They organized and made websites accessible through advanced algorithms.</label><br>
+                <label><input type="radio" name="q3" value="B"> B) They helped to create websites.</label><br>
+                <label><input type="radio" name="q3" value="C"> C) They allowed users to view HTML code.</label><br>
+                <label><input type="radio" name="q3" value="D"> D) They provided email services.</label><br>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Which two of the following statements are true about the "Band Template" webpage from W3Schools 
+                    based on the research information? (Select all that apply)</p> <br>
+                <label><input type="checkbox" name="q4" value="A"> A) The template uses external and inline CSS to style the webpage, 
+                    including links to Google and Cloudflare stylesheets for additional fonts.</label><br>
+                <label><input type="checkbox" name="q4" value="B"> B) The template follows best practices by avoiding the use of the "div" element, 
+                    keeping the HTML structure simple and easy to maintain.</label><br>
+                <label><input type="checkbox" name="q4" value="C"> C) The template includes a responsive layout, with a clean design, 
+                    organized navigation bar, and a footer element displaying social media platform badges.</label><br>
+                <label><input type="checkbox" name="q4" value="D"> D) The webpage template is fully accessible, 
+                    with ARIA elements and HTML5 semantic tags for improved usability with assistive technologies.</label><br>
+            </div>
+
+            <!-- Fill-in-the-Blank Question -->
+            <div class="question">
+                <p>5. Fill in the blank: What does WWW stand for? Answer:__________.</p>
+                <input type="text" name="q5" id="q5" placeholder="Enter your answer here">
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. What does URL stand for?</p> <br>
+                <label><input type="radio" name="q6" value="A"> A) Uniform Resource Label</label><br>
+                <label><input type="radio" name="q6" value="B"> B) Universal Resource Locator</label><br>
+                <label><input type="radio" name="q6" value="C"> C) Universal Radio Location</label><br>
+                <label><input type="radio" name="q6" value="D"> D) Uniform Radio Label</label><br>
+            </div>
+
+             <!-- Question 7 -->
+             <div class="question">
+                <p>7. What was the key element in search engines that drove the growth and development for ecommerce and online services?</p>
+                <label><input type="radio" name="q7" value="A"> A) The growth of online education.</label><br>
+                <label><input type="radio" name="q7" value="B"> B) The advancements in the algorithms use in search engines.</label><br>
+                <label><input type="radio" name="q7" value="C"> C) The explosion of streaming services.</label><br>
+                <label><input type="radio" name="q7" value="D"> D) The rise of mobile devices and Wi-Fi.</label><br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+
+        <div id="result" class="result">
+            <!-- Result will be displayed here -->
+        </div>
+
+        <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

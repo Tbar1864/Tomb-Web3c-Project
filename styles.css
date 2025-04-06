@@ -1,0 +1,587 @@
+:root {
+    --background-color: #eeeff1;
+    --link-color: #4a76ee;
+    --text-color: #1a1c20;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+/* Body Style Home Page */
+.homepage_body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    max-width: 1400px; 
+    margin: 0 auto;   
+}
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+/* NAVBAR Styling*/
+nav {
+   display: flex;
+   background-color: lightblue;
+   color: #fff;
+   box-shadow: 0 4px 8px rgba(9, 37, 116, 0.1);
+   justify-content: space-between;
+   align-items: center;
+   padding:0 10px;
+   height: 80px;
+}
+/* Left Side of Navbar */
+nav .left a {
+   color: var(--text-color);
+   font-size: 22px;
+   font-weight: 600;
+   margin:0 10px;
+}
+
+nav .left a:hover {
+    border: 2px solid var(--text-color);    
+    color: red;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+/* Right Side of Navbar */
+nav .right a {
+   color: var(--text-color);
+   margin: 0 10px;
+}
+
+nav .right a:last-child {
+   color: var(--background-color);
+   background-color: var(--text-color);
+   padding: 5px 15px;
+   border-radius: 5px;
+}
+
+nav .right a span {
+   margin-left: 5px;
+}
+
+/* SECTION 1: Me */
+.me-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 50px;
+   margin: 50px 0;
+   margin-bottom: 100px;
+   gap: 40px;
+}
+
+.me-section .text {
+    flex: 5;
+}
+
+.me-section .text h2 {
+    font-size: 45px;    
+}
+
+.me-section .text .links {
+    margin: 25px;
+}
+
+.me-section .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;    
+}    
+
+.me-section .text .links a:hover {
+    border: 2px solid var(--text-color);    
+    color: var(--text-color);
+}    
+
+.me-section .headshot {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.me-section .headshot img {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.me-section .text .links {
+    margin: 25px;
+}
+
+/* SECTION 2: Skills */
+.skills-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills-section h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.skills-section .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills-section .group .skill-details {
+    flex: 3;  
+    text-align: center;
+}
+
+.skills-section .group .text {
+    margin-bottom: 20px;
+    text-align: center;
+}    
+
+.skills-section .group .skill-details img {
+    aspect-ratio: 1/1;
+    border-radius: 30%;
+    margin-bottom:5px;
+    object-fit: cover;
+    width: 200px;    
+}    
+
+.skills-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.skills-section .cells .cell img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.skills-section .cells .cell span {
+    font-size: 18px;    
+}
+
+/* SECTION 3: Research */
+.research-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.research-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.research-section .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;    
+}
+
+.research-section .group .person-details {
+    flex: 2;
+    text-align: center;
+}
+
+.research-section .group .text {
+    flex: 8;
+}   
+
+.research-section .group .person-details img {
+    aspect-ratio: 1/1;
+    border-radius: 30%;
+    margin-bottom:5px;
+    object-fit: cover;
+    width: 200px;    
+}    
+    
+.research-section .group .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.research-section .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;    
+}    
+
+.research-section .text .links a:hover {
+    border: 2px solid var(--text-color);    
+    color: var(--text-color);
+}
+
+.research-section .group .person-details p {
+    font-weight: 600;
+}
+
+.research-section .group .person-details p:last-child {
+    font-weight: normal;
+}
+
+/* SECTION 4: References */
+.references-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.references-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.references-section .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;    
+}
+
+.references-section .group .references-image {
+    flex: 2; 
+    text-align: center;
+}
+
+.references-section .group .text {
+    flex: 8;
+}   
+
+.references-section .group .references-image img {
+    aspect-ratio: 1/1;
+    border-radius: 30%;
+    margin-bottom:5px;
+    object-fit: cover;
+    width: 200px;    
+}    
+.references-section .group .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.references-section .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;    
+}   
+
+.references-section .text .links a:hover {
+    border: 2px solid var(--text-color);    
+    color: var(--text-color);
+}
+
+/* SECTION 5: Contact */
+.contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.contact-section h2 {
+    font-size: 35px;
+}
+
+.contact-section .group {
+    display: flex;    
+    gap: 50px;    
+}
+
+.contact-section .group .text {
+    flex: 3;
+    margin-top: 20px;
+}
+
+.contact-section .group form {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.contact-section .group form input,
+.contact-section .group form textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--link-color);
+    background-color: transparent;
+    outline: none;
+    resize: none;
+}
+
+.contact-section .group form button {    
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    transition: .1s; 
+    color: #fff;
+    background-color: var(--link-color);   
+}
+
+.contact-section .group form button:hover { 
+    filter: brightness(0.9);
+}
+
+/* Improving Responsiveness */
+
+@media (max-width: 850px) {
+    /* Section 1 Me */
+    .me-section .text h2 {
+        font-size: 35px;            
+    }
+}
+
+@media (max-width: 740px) {
+        /* Section 1 Me */
+        .me-section {
+            flex-direction: column-reverse;            
+        }
+        .me-section .headshot img {
+            width: 300px;
+        }
+
+        /* Section 3 Research */
+        .research-section {
+            text-align: center;
+        }
+
+        .research-section .group {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* SECTION 5: Contact */
+
+        .contact-section .group {
+            flex-direction: column;
+        }
+}
+
+@media (max-width: 600px) {
+    /* NAVBAR */
+    nav {
+        padding: 0 20px;
+    }
+
+    nav .right a {
+        font-size: 22px;
+    }
+
+    nav .right a:last-child {
+        color: var(--text-color);
+        background-color: transparent;
+        padding: 0;
+    }   
+    
+    nav .right a span {
+       display: none;
+    }
+
+    /* Section 1: Me */
+    .me-section {
+        padding: 0 20px;
+    }
+
+    .me-section .text h2 {
+        font-size: 30px;            
+    }
+    .me-section .text .links a {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}
+
+/* Section 2: Skills */
+.skills-section {
+    padding: 0 20px;
+}
+
+.skills-section .cells .cell span {
+    font-size: 16px;    
+}
+
+/* SECTION 3: Research */
+.research-section {
+    padding: 0 20px;
+}
+
+/* SECTION 4: Reference */
+.references-section {
+    padding: 0 20px;
+  }
+
+/* SECTION 5: Contact */
+.contact-section {
+    padding: 0 20px;
+ }
+
+ /* Basic styling for the Skill page */
+skills_body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #7880f8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.experience {
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.experience-img {
+    width: 200px;
+    height: 200px;   
+    border-radius: 10px 0 0 10px;
+}
+
+.experience-details {
+    padding: 20px;
+    flex: 1;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+secondary-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7880f8;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+   /* Quiz Page */
+/* Body Style Quiz Page */
+quiz_body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-left: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+button[type="button"]:nth-child(2) {
+    background-color: #007bff;
+}
+
+button[type="button"]:nth-child(2):hover {
+    background-color: #0056b3;
+}
