@@ -143,7 +143,13 @@ nav .right a span {
 .skills-section .group .text {
     margin-bottom: 20px;
     text-align: center;
-}    
+}
+
+.skills-section .group .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
 .skills-section .group .text .links a {
     display: inline-block;
