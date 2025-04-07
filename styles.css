@@ -287,12 +287,12 @@ nav .right a span {
 }
 
 .references-section .group .references-image {
-    flex: 2; 
+    flex: 3; 
     text-align: center;
 }
 
 .references-section .group .text {
-    flex: 8;
+    flex: 7;
 }   
 
 .references-section .group .references-image img {
