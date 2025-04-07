@@ -141,8 +141,9 @@ nav .right a span {
 }
 
 .skills-section .group .text {
+    flex: 7;
+    text-align: left;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .skills-section .group .text p {
