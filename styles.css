@@ -141,7 +141,7 @@ nav .right a span {
 }
 
 .skills-section .group .text {
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -149,6 +149,7 @@ nav .right a span {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .skills-section .group .text .links a {
