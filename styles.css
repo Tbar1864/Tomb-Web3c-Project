@@ -192,6 +192,7 @@ nav .right a span {
 .research-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .research-section .group {
@@ -255,6 +256,7 @@ nav .right a span {
 .references-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .references-section .group {
@@ -308,6 +310,8 @@ nav .right a span {
 
 .contact-section h2 {
     font-size: 35px;
+    text-align: ;center;
+    margin-bottom: 30px;
 }
 
 .contact-section .group {
