@@ -141,6 +141,14 @@ nav .right a span {
     text-align: center;
 }
 
+.skills-section .group .skill-details img {
+    aspect-ratio: 1/1;
+    border-radius: 30%;
+    margin-bottom:5px;
+    object-fit: cover;
+    width: 200px;    
+}    
+
 .skills-section .group .text {
     text-align: center;
     margin-bottom: 20px;
@@ -165,15 +173,7 @@ nav .right a span {
 .skills-section .group .text .links a:hover {
     border: 2px solid var(--text-color);    
     color: var(--text-color);
-}   
-
-.skills-section .group .skill-details img {
-    aspect-ratio: 1/1;
-    border-radius: 30%;
-    margin-bottom:5px;
-    object-fit: cover;
-    width: 200px;    
-}    
+}  
 
 .skills-section .cells {
     display: flex;
