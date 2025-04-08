@@ -150,7 +150,7 @@ nav .right a span {
 }    
 
 .skills-section .group .text {
-    text-align: center;
+    flex: 7;
     margin-bottom: 20px;
 }
 
@@ -169,8 +169,8 @@ nav .right a span {
     margin-right: 10px;
     margin-bottom: 10px;
     transition: .1s;
-    text-align: left;
 }
+
 .skills-section .group .text .links a:hover {
     border: 2px solid var(--text-color);    
     color: var(--text-color);
