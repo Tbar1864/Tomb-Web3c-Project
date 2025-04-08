@@ -161,6 +161,11 @@ nav .right a span {
     text-align: left;
 }
 
+.skills-section .group .text .links {
+    margin: 25px;
+    text-align: left; /* Align the link to the left */
+}
+
 .skills-section .group .text .links a {
     display: inline-block;
     padding: 5px 10px;
