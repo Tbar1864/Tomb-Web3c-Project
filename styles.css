@@ -224,12 +224,12 @@ nav .right a span {
 }
 
 .research-section .group .person-details {
-    flex: 2;
+    flex: 3;
     text-align: center;
 }
 
 .research-section .group .text {
-    flex: 8;
+    flex: 7;
 }   
 
 .research-section .group .person-details img {
