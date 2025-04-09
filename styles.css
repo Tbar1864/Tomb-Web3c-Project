@@ -1,8 +1,19 @@
 :root {
+    /* Primary Colors */
     --background-color: #eeeff1;
     --link-color: #4a76ee;
     --text-color: #1a1c20;
+
+    /* Layout and Spacing */
+    --text-align-center: center;
+    --border-radius: 5px;
+    --padding-small: 5px 10px;
+    --padding-medium: 10px 20px;
+    --gap-large: 50px;
+    --gap-small: 10px;
+    --border-color: #d3d3d3;
 }
+
 
 * {
     margin: 0;
@@ -120,15 +131,6 @@ nav .right a span {
 }
 
 /* SECTION 2: Skills */
-:root {
-    --text-align-center: center;
-    --border-radius: 5px;
-    --padding-small: 5px 10px;
-    --padding-medium: 10px 20px;
-    --gap-large: 50px;
-    --gap-small: 10px;
-    --border-color: #d3d3d3;
-}
 
 .skills-section {
     padding: 0 50px;
