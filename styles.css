@@ -303,7 +303,7 @@ nav .right a span {
 .references-section .group {
     display: flex;
     align-items: center;
-    gap: 100px;    
+    gap: 50px;    
 }
 
 .references-section .group .references-image {
