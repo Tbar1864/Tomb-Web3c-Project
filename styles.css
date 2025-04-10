@@ -257,7 +257,8 @@ nav .right a span {
     border-radius: 30%;
     margin-bottom:5px;
     object-fit: cover;
-    width: 200px;    
+    width: 200px;
+    height: 600px;    
 }    
     
 .research-section .group .text p {
