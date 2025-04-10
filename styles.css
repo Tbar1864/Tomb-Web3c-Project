@@ -343,6 +343,35 @@ nav .right a span {
     color: var(--text-color);
 }
 
+.references-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.references-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-small);
+    width: 200px;
+    padding: var(--padding-medium);
+    margin: 10px;
+    border: 1.5px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.references-section .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.references-section .cells .cell span {
+    font-size: 18px;
+}
+
 /* SECTION 5: Contact */
 .contact-section {
     padding: 0 50px;
