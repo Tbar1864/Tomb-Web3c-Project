@@ -318,7 +318,7 @@ nav .right a span {
 .references-section .group .references-image img {
     aspect-ratio: 1/1;
     border-radius: 30%;
-    margin-bottom:5px;
+    margin-bottom:25px;
     object-fit: cover;
     width: 200px;    
 }    
