@@ -249,6 +249,7 @@ nav .right a span {
 
 .research-section .group .text {
     flex: 8;
+    margin-top: 20px;
 }   
 
 .research-section .group .person-details img {
