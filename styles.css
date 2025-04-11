@@ -234,6 +234,7 @@ nav .right a span {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: lighten;
     max-width: 1600px; 
     margin: 0 auto;   
 }
