@@ -93,7 +93,7 @@ nav .right a span {
 
 .me-section .text h2 {
     font-size: 45px;
-    text-align: var(--text-align-center);
+    text-align: var(--text-align-right);
 }
 
 .me-section .text .links {
