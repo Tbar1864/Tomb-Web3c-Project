@@ -226,6 +226,15 @@ nav .right a span {
 
 
 /* SECTION 3: Research */
+.research_body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/09/08/abstract-1868720_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px; 
+    margin: 0 auto;   
+}
 .research-section {
     padding: 0 50px;
     margin-bottom: 100px;
