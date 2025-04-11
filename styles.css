@@ -155,7 +155,7 @@ nav .right a span {
 }
 
 .skills-section .group .skill-details img {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     border-radius: 30%;
     margin-bottom: 5px;
     margin-left: 20px;
@@ -337,7 +337,7 @@ nav .right a span {
     aspect-ratio: 1/1;
     border-radius: 30%;
     margin-bottom:25px;
-    object-fit: cover;
+    object-fit: scale-down; 
     width: 200px;    
 }    
 .references-section .group .text p {
