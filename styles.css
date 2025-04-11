@@ -231,6 +231,9 @@ nav .right a span {
     background-color: var(--background-color);
     background-image: url(images/5153829.webp);
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1600px; 
     margin: 0 auto;   
 }
