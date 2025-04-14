@@ -2,15 +2,7 @@
     /* Primary Colors */
     --background-color: #eeeff1;
     --link-color: #4a76ee;
-    --text-color: #1a1c20;
-
-    --background-color: var(--background-color);
-    --background-image: url(images/5153829.webp);
-    --background-position: center;
-    --background-attachment: fixed;
-    --background-repeat: no-repeat;
-    --background-size: cover;
-    --background-blend-mode: overlay;
+    --text-color: #1a1c20;   
 
     /* Layout and Spacing */
     --text-align-center: center;
@@ -36,7 +28,7 @@ html {
 .homepage_body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
-    max-width: 1600px; 
+    max-width: 1800px; 
     margin: 0 auto;   
 }
 a {
