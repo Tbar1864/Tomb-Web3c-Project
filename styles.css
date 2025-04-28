@@ -248,11 +248,6 @@ nav .right a span {
     text-align: var(--text-align-center);
 }
 
-.research-section .text h3 {
-    font-size: 25px;
-    text-align: var(--text-align-center);
-}
-
 .research-section .group {
     display: flex;
     align-items: center;
@@ -283,6 +278,11 @@ nav .right a span {
     line-height: 1.5;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.research-section .group .text h3 {
+    font-size: 25px;
+    text-align: var(--text-align-center);
 }
 
 .research-section .text .links a {
