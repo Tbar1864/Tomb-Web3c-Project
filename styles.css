@@ -14,7 +14,6 @@
     --border-color: #d3d3d3;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -247,6 +246,11 @@ nav .right a span {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
+}
+
+.research-section .text h3 {
+    font-size: 45px;
+    text-align: var(--text-align-right);
 }
 
 .research-section .group {
