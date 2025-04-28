@@ -245,11 +245,11 @@ nav .right a span {
 .research-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
-    text-align: var(--center-align-center);
+    text-align: var(--text-align-center);
 }
 
 .research-section .text h3 {
-    font-size: 45px;
+    font-size: 25px;
     text-align: var(--text-align-center);
 }
 
