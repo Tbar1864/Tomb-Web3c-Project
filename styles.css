@@ -25,7 +25,7 @@ html {
     scroll-behavior: smooth;
 }
 /* Body Style Home Page */
-.homepage_body {
+.main_body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     background-image: url(images/5153829.webp);
