@@ -27,9 +27,17 @@ html {
 .homepage_body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
+    background-image: url(images/5153829.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
     max-width: 1800px; 
     margin: 0 auto;   
 }
+
+/* Basic styling for the body */
 a {
     color: var(--link-color);
     text-decoration: none;
