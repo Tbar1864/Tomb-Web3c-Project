@@ -315,7 +315,7 @@ nav .right a span {
 .references-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: var(--text-align-center);
 }
 
 .references-section .group {
@@ -332,22 +332,23 @@ nav .right a span {
     text-align: center;
 }
 
-.references-section .group .text {
+.references-section .group .text {    
     flex: 8;
+    margin-top: 20px;
 }   
 
 .references-section .group .references-image img {
     aspect-ratio: 1/1;
     border-radius: 30%;
     margin-bottom:25px;
-    object-fit: scale-down; 
+    object-fit:scale-down; 
     width: 200px;    
 }    
 .references-section .group .text p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
-    flex: 8;
+    text-decoration: none;
 }
 
 .references-section .text .links a {
@@ -365,8 +366,7 @@ nav .right a span {
     color: var(--text-color);
 }
 
-.references-section .cells {
-    display: flex;
+.references-section .cells {    
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -484,7 +484,7 @@ nav .right a span {
 }
 
 @media (max-width: 600px) {
-    /* NAVBAR */
+    /* NAVBAR Responsivness */
     nav {
         padding: 0 20px;
     }
