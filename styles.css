@@ -347,6 +347,7 @@ nav .right a span {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+    flex: 8;
 }
 
 .references-section .text .links a {
