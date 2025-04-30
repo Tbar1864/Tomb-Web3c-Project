@@ -473,6 +473,18 @@ nav .right a span {
             width: 300px;
         }
 
+        /* Section 2 Skills */
+        .skills-section {
+            text-align: center;
+        }
+
+        .skills-section .group {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* SECTION 5: Contact */
+
         /* Section 3 Research */
         .research-section {
             text-align: center;
