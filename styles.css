@@ -318,6 +318,13 @@ nav .right a span {
     text-align: var(--text-align-center);
 }
 
+.references-section h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: var(--text-align-center);
+}
+
 .references-section .group {
     display: flex;
     align-items: center;
