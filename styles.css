@@ -482,15 +482,23 @@ nav .right a span {
             flex-direction: column;
             align-items: center;
         }
-
-        /* SECTION 5: Contact */
-
+      
         /* Section 3 Research */
         .research-section {
             text-align: center;
         }
 
         .research-section .group {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Section 4 References */
+        .references-section {
+            text-align: center;
+        }
+
+        .references-section .group {
             flex-direction: column;
             align-items: center;
         }
