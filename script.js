@@ -7,7 +7,7 @@ function submitQuiz() {
         q3: 'A',  // Correct answers for Question 3
         q4: ['A', 'C'],  // Correct answers for Question 4
         q5: 'World Wide Web',  // Correct answer for Question 5
-        q6: 'D',  // Correct answer for Question 6
+        q6: 'B',  // Correct answer for Question 6
         q7: 'B',  // Correct answer for Question 7
     };
 
@@ -75,17 +75,17 @@ function submitQuiz() {
     // Question 6
     if (userAnswers.q6 === answers.q6) {
         score++;
-        result += `<p>Q6: Correct - 13</p>`;
+        result += `<p>Q6: Correct - Uniform Resource Locator</p>`;
     } else {
-        result += `<p>Q6: Incorrect - 13</p>`;
+        result += `<p>Q6: Incorrect - The correct answer is Uniform Resource Locator</p>`;
     }
 
     // Question 7
     if (userAnswers.q7 === answers.q7) {
         score++;
-        result += `<p>Q7: Correct - 11 + 3 is 14</p>`;
+        result += `<p>Q7: Correct - The advancement in the algorithms used in search engines.</p>`;
     } else {
-        result += `<p>Q7: Incorrect - The correct answer is 14</p>`;
+        result += `<p>Q7: Incorrect - The correct answer is The advancement in the algorithms used in search engines.</p>`;
     }
     
     // Show the total score and pass/fail
